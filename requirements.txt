@@ -1,0 +1,12 @@
+mysql-connector-python
+polars
+pytest
+requests
+python-dotenv
+pydantic
+sqlalchemy
+pymysql
+pandas
+pyarrow>=8.0.0
+torch
+torchtext
