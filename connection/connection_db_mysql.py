@@ -2,11 +2,11 @@
 
 import mysql.connector
 
-from models.CredentialsDataBase import CredentialsDataBase
+from models.credentials_db_mysql import CredentialsMYSQL
 
 
 class MySQLConnection:
-    def __init__(self, credentials: CredentialsDataBase):
+    def __init__(self, credentials: CredentialsMYSQL):
         self.host = credentials.host
         self.user = credentials.user
         self.password = credentials.password

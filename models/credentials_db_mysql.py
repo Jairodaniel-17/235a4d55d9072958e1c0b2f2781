@@ -3,7 +3,7 @@
 from pydantic import BaseModel
 
 
-class CredentialsDataBase(BaseModel):
+class CredentialsMYSQL(BaseModel):
     """
     Model class for storing database credentials.
     """
